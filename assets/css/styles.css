@@ -24,7 +24,7 @@ a:hover {
 
 .navbar {
     width: 100%;
-    height:82px;
+    height:80px;
     background-color: #ED8885;
     position: fixed;
     overflow: hidden;
@@ -33,7 +33,7 @@ a:hover {
   .navbar-text {
     color: white;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .navbar-text:hover {
