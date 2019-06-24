@@ -27,7 +27,8 @@
           <ul style="padding-bottom: 2rem">
             <li><a href="#intro">What does tech for social good mean to me?</a></li>
 <!--             <li><a href="#finance">How does SWE fit into banking?</a></li>
- -->          </ul>
+ -->          <li><a href="#firstpr">My first PR at my first internship</a></li>
+          </ul>
 
           <hr/>
        </div>
@@ -58,6 +59,25 @@
 
         
       </div> -->
+      <div id="firstpr">
+          <h3>My first PR at my first internship</h3>
+          <p>
+            I was pretty proud of this one PR I made at my first internship that I wanted it to be ready to merge into the master branch immediately! It wasn’t 100% perfect but it was functional and passed the “play around with it and nothing breaks” test. I had worked on (smaller) group projects before and learned that in order merge into master, I had to be up to date with the changes on master that I’ve missed out on while I was working on my feature. What I failed to realize is that the entire frontend codebase of my company cannot be considered as a (larger) group project.
+          </p>
+          <p>
+            I did the rebase and there were little if any merge conflicts, great! The codebase was so large that I had been working in my tiny little corner of a React component that no one else was looking at anymore. I typed out my first PR with a naive confidence (another thing I did not know was that submitting a functional PR is 60% of the work, not 95% like I remembered it being). 
+          </p>
+          <p>
+            “Create pull request” would be my final words… A few moments later I got pinged by someone on a completely unrelated team. Turns out I ended up modifying over 800 files which had automatically notified over half of the teams at the company. I might as well gotten a tattoo on my forehead saying “warning: first-time intern” on my forehead.
+          </p>
+          <p>
+            My instincts were to copy paste the changes I made in the few files into my local notes app, delete the PR and related branch completely, make a new branch, and pretend like nothing happened. My mentor told me that people who did that just didn’t have a solid grasp of Git — and that you really should never have to do that rookie move. Thankfully version control is forgiving: `git reflog` and `git reset --hard HEAD@{x}` became my new allies that allowed me to revert my branch to before the rebase!
+          </p>
+          <p>
+            I’ve kind of extrapolated my mentor’s mentality to “you should never have to do a dirty trick to get the result you are looking for, and finding an elegant solution will always be worth your time.” <a href="https://en.wikipedia.org/wiki/Technical_debt">Technical debt</a> is a real thing for projects with life spans longer than a semester. There are software engineers new and old that will be trying to decipher what I’ve written — and at a bare minimum I have to leave it better than I found it. 
+          </p>
+          <hr/>
+      </div>
 
     </div>
 
