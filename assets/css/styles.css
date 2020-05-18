@@ -5,15 +5,24 @@ body {
 }
 
 h1 {
-    font-size: 64px;
-    text-align: center;
+    font-family: 'Georgia' !important;
+    font-weight: normal;
+    font-size: 56px;
     margin: 0px;
-    padding-top: 120px
+    padding-top: 120px;
+    text-align: center;
+}
+
+h3 {
+    color: #ED8885; 
+}
+
+h4 {
+    padding:0;
 }
 
 a {
     text-decoration: none;
-    font-weight: bold;
     color: #ED8885;
     background-color: transparent;
 }
@@ -24,29 +33,89 @@ a:hover {
 
 .navbar {
     width: 100%;
-    height:80px;
+    height: 72px;
     background-color: #ED8885;
     position: fixed;
     overflow: hidden;
+    z-index: 9999;
   }
 
-  .navbar-text {
-    color: white;
-    cursor: pointer;
-    font-size: 36px;
-  }
+.navbar-icon {
+color: white;
+cursor: pointer;
+font-size: 32px;
+}
 
-  .navbar-text:hover {
-    color: grey;
-  }
+.navbar-text {
+color: white;
+cursor: pointer;
+font-size: 24px;
+}
 
-  .navbar-block {
-      padding-right: 80px;
-      display: inline;
-  }
+.navbar-block {
+    padding-right: 80px;
+    display: inline;
+}
 
 .blurb {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
+.intro-container {
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    padding-top: 80px; 
+}
+
+.intro-image {
+    width: 480px; 
+    margin: auto; 
+    display: block; 
+    padding-bottom: 16px;
+    padding-right: 80px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color:#f4f4f4;
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card-img {
+    width: 50%;
+    display: block;
+    margin: 5%;
+  }
+
+  .card-text {
+    width: 40%; 
+    padding-right: 5%; 
+    display: block; 
+  }
+
+  .card-text-inverted {
+    width: 40%; 
+    padding-left: 5%; 
+    display: block; 
+  }
+
+  .project-link {
+      float: right;
+      margin-right: 32px;
+      font-size: 24px;
+  }
+
+
+  
   

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html lang="en">
   <head>
-  <meta charset="utf-8">
+      <meta charset="utf-8">
       <title>Alice Ye Zhao</title>
       <link rel="icon" href="./assets/images/initials.ico">
       <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
@@ -11,45 +11,106 @@
     <body>
       <nav class="navbar">
           <ul style="float: left">
-              <li class="navbar-block"><a class="navbar-text" href="index.html"><i class="fas fa-home"></i></a></li>
+              <li class="navbar-block"><a class="navbar-text" href="index.html">About</i></a></li>
+              <li class="navbar-block"><a class="navbar-text" href="index.html#projects">Projects</i></a></li>
+              <li class="navbar-block"><a class="navbar-text" href="index.html#interests">Interests</i></a></li>
           </ul>
           <ul style="float: right">
-              <li class="navbar-block"><a class="navbar-text" target="_blank" href="https://linkedin.com/in/aliceyezhao"><i class="fab fa-linkedin"></i></a></li>
-              <li class="navbar-block"><a class="navbar-text" target="_blank" href="https://github.com/aliceyezhao"><i class="fab fa-github"></i></a></li>
-              <li class="navbar-block"><a class="navbar-text" target="_blank" href="./assets/AliceZhao_Summer20.pdf"><i class="fas fa-file-alt"></i></a></li>
-              <li class="navbar-block"><a class="navbar-text" target="_blank" href="https://medium.com/@aliceyezhao"><i class="fab fa-medium"></i></a></li>
-              <li class="navbar-block"><a class="navbar-text" href="pinned.html"><i class="fas fa-thumbtack"></i></a></li>
+              <li class="navbar-block"><a class="navbar-icon" target="_blank" href="https://linkedin.com/in/aliceyezhao"><i class="fab fa-linkedin"></i></a></li>
+              <li class="navbar-block"><a class="navbar-icon" target="_blank" href="https://github.com/aliceyezhao"><i class="fab fa-github"></i></a></li>
+              <li class="navbar-block"><a class="navbar-icon" target="_blank" href="./assets/AliceZhaoJune20.pdf"><i class="fas fa-file-alt"></i></a></li>
+              <li class="navbar-block"><a class="navbar-icon" target="_blank" href="https://medium.com/@aliceyezhao"><i class="fab fa-medium"></i></a></li>
           </ul>
       </nav>
       
       <div class="blurb">
         <h1>Hi there! I'm Alice</h1>
-        <div>
-          <img src="./assets/images/about.jpg" alt="Alice in Tokyo" style="width: 75%; margin: auto; display: block; padding-top: 16px; padding-bottom: 16px">
+        <div class="intro-container">
+          <div >
+            <img class="intro-image" src="./assets/images/about_circle.jpg" alt="Alice in Tokyo">
+          </div>
+          <div>
+            <p> 
+              I'm a fourth year studying Electrical Engineering and Computer Science at UC Berkeley</a> with a minor in Education. This summer I will be a software engineering intern at Uber on their Core Infrastructure Team. Last summer I was a SWE intern at Datadog on their Dashboards team as a part of <a href="https://hackny.org/2019/06/announcing-the-class-of-2019-hackny-fellows/">hackNY</a>. On campus I am involved with <a href="https://www.calblueprint.org/">Blueprint</a>, a campus organization that works with nonprofits to build thoughtful web and mobile apps for social good. 
+            </p>
+
+            <p>
+              I’m the lookout for new grad SWE and PM opportunities for spring 2021 graduates. Here is my <a target="_blank" href="assets/AliceZhaoJune20.pdf">resume</a> and you can reach me at alicezhao@berkeley.edu if you want to link up!
+            </p>   
+            <p>
+              See <a href="index.html#interests">interests</a> for more about me!
+            </p>
         </div>
-        
-        <p> 
-          I'm a junior studying <a href="https://eecs.berkeley.edu/">EECS at UC Berkeley</a> who gets excited about tech for social good (more on that <a href="pinned.html#intro">here</a>). This summer was I signed to be a SWE intern at <a href="https://checkr.com/">Checkr</a>, a background check company that uses AI/ML to make ethical hiring decisions, but the internship was cancelled due to the pandemic. On the lookout for new grad software engineering opportunities for spring 2021 graduates. You can reach me at alicezhao@berkeley.edu if you want to link up!
-        </p>
-
-        <p>
-          This past summer, I was a SWE intern at <a href="https://www.datadog.com">Datadog</a> on the Dashboards team in New York as a part of <a href="https://hackny.org/2019/06/announcing-the-class-of-2019-hackny-fellows/">hackNY</a>. I brought two highly requested features to production that improved navigation between the core app and allowed users to import and export dashboards in JSON format. I was also chosen to demo at the AWS Summit in New York!
-        </p>
-
-        <p>
-          I'll also be a project manager this semester for <a href="https://www.calblueprint.org/">Blueprint</a>, a campus organization that works with nonprofits to build thoughtful web and mobile apps for social good. I will be working with <a href="http://1951coffee.com">1951 Coffee</a>, a nonprofit that provides job training and employment to refugees. My team will be building a mobile app that allows their staff to communicate with their barista trainees and provide them with digital resources like brew guides and job opportunities. 
-        </p> 
-
-        <p>
-          Fun facts!
-        </p>
-        <ul>
-            <li>Writer for a fashion blog called <a href="https://www.berkeleygarb.com/blog-1/category/Alice+Zhao">Garb</a>, focusing on accessible and expressive women's wear</li>
-            <li>As a result of being in <a href="https://www.calakspi.com/">AKPsi</a>, a business frat, I now have scattered knowledge on consulting and investment banking</li>
-            <li>Kakashi is my favorite Naruto character</li>
-            <li>I used to work at a boba shop in high school called <a href="https://www.teaspoonlife.com">Teaspoon</a> and my favorite drinks are the Roasted Tea Crema and the Peach Oolong with half milk (I get both 25% sweet to watch my sugar consumption!!)</li>
-        </ul> 
+      </div>
     </div>
+    <hr style="margin-top:10%"/>
+    <div id="projects">
+        <h1>Some things I built</h1>
+        <div class="blurb">
+
+              <div class="card">
+                <img class="card-img" src="./assets/images/1951coffee.png" alt="rising tides">
+                <div class="card-text">
+                <h3>1951 Coffee Training App</h3>
+                <h4>Cal Blueprint 
+                  <a target="_blank" href="https://github.com/calblueprint/1951coffee"><div class="project-link"><i class="fab fa-github"></i></div></a>
+                  <a target="_blank" href="https://apps.apple.com/app/1951-coffee-trainee/id1496686726"><div class="project-link"> <i class="fas fa-globe-americas"></i></div></a>
+                </h4>
+                <p>Led a team of developers and designers to build an educational mobile app for 1951 Coffee’s Barista Training Program that integrates SMS. I scoped the project, assigned tasks, reviewed PRs, and communicated with our client to successfully deliver the MVP. Built using Airtable and React Native. 
+                </p>
+              </div>
+            </div>
+          
+            <div class="card">
+                <div class="card-text-inverted">
+                <h3>Rising Tides</h3>
+                <h4>Cal Blueprint 
+                  <a target="_blank" href="https://github.com/calblueprint/rising-tides"><div class="project-link"><i class="fab fa-github"></i></div></a>
+                  <a target="_blank" href="https://risingtides.calblueprint.org/"><div class="project-link"> <i class="fas fa-globe-americas"></i></div></a>
+                </h4>
+                <p>Built a dual portal web application that connects skilled volunteers to communities being impacted by climate change. Used Tachyons to build customized components that were consistent with branding. Developed with ReactJS and Ruby on Rails.
+                </p>
+              </div>
+              <img class="card-img" src="./assets/images/risingtides.png" alt="rising tides">
+            </div>
+            
+            <div class="card">
+                <img class="card-img" src="./assets/images/homepointr.png" alt="rising tides">
+                <div class="card-text">
+                <h3>Homepointr CIC</h3>
+                <h4>Cal Blueprint 
+                  <a target="_blank" href="https://github.com/calblueprint/HomePointrCIC"><div class="project-link"><i class="fab fa-github"></i></div></a>
+                  <a target="_blank" href="https://homepointr.com/"><div class="project-link"> <i class="fas fa-globe-americas"></i></div></a>
+                </h4>
+                <p>Developed an intuitive full-stack web application for HomePointr CIC that facilitates the data exchange processes between up to 40,000 homeless individuals in Scotland and appropriate care services by storing, sorting and filtering form data. Built using React and Ruby on Rails.
+                </p>
+              </div>
+            </div>
+      </div>
+    </div>
+    <hr style="margin-top:10%"/>
+    <div id="interests">
+    <h1>What makes me smile</h1>
+          <div class="blurb">  
+              <h3 style="padding-top: 32px">Fun facts!</h3>
+                  <ul>
+                      <li>Writer for a fashion blog called <a href="https://www.berkeleygarb.com/blog-1/category/Alice+Zhao">Garb</a>, focusing on accessible and expressive women's wear</li>
+                      <li>I'm a member of <a href="https://www.calakspi.com/">Alpha Kappa Psi</a>, a business frat at UC Berkeley</li>
+                      <li>I love discovering new anime and Kakashi is my favorite Naruto character</li>
+                      <li>I used to work at a boba shop in high school called <a href="https://www.teaspoonlife.com">Teaspoon</a> and my favorite drinks are the Roasted Tea Crema 25% sweet with boba and almond pudding!</li>
+                  </ul> 
+              
+              <h3 style="padding-top: 32px">Quick plug for my Medium</h3>
+              <p>I recently started trying to write more on <a href="https://medium.com/@aliceyezhao">Medium</a>. Writing and journalism were a hobbies of mine in high school but unfortunately I lost touch with them in the midst of my CS major. I've trying to output stories that aren't necessarily related to tech, but that focus more on my narrative. Follow me for some amusing reads!</p>
+
+              <h3 style="padding-top: 32px">I unironically love TikTok</h3>
+              <p>I downloaded the app during lockdown not expecting too get addicted to it. The content I find is honestly so creative and I think it's great for small creators to get this kind of visibility! Because the learning curve is not to steep and you don't need to invest a lot of resources, I find that creators are more down to earth. Here are some of mine which feature my favorite things: fashion and food.</p>
+              <div class="card">
+                  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@alice.y.z/video/6819005744818687237" data-video-id="6819005744818687237" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@alice.y.z" href="https://www.tiktok.com/@alice.y.z">@alice.y.z</a> <p>I recommend using a shirt that isn’t too stiff! <a title="fashion" target="_blank" href="https://www.tiktok.com/tag/fashion">##fashion</a> <a title="style" target="_blank" href="https://www.tiktok.com/tag/style">##style</a> <a title="styletips" target="_blank" href="https://www.tiktok.com/tag/styletips">##styletips</a> <a title="gingham" target="_blank" href="https://www.tiktok.com/tag/gingham">##gingham</a> <a title="shirt" target="_blank" href="https://www.tiktok.com/tag/shirt">##shirt</a> <a title="asian" target="_blank" href="https://www.tiktok.com/tag/asian">##asian</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">##fyp</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">##foryou</a></p> <a target="_blank" title="♬ original sound - bradyabates" href="https://www.tiktok.com/music/original-sound-6813044345088920326">♬ original sound - bradyabates</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@alice.y.z/video/6818293681594977541" data-video-id="6818293681594977541" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@alice.y.z" href="https://www.tiktok.com/@alice.y.z">@alice.y.z</a> <p>First impulsive takeout order!! <a title="itadakimasu" target="_blank" href="https://www.tiktok.com/tag/itadakimasu">##itadakimasu</a> <a title="tiramisu" target="_blank" href="https://www.tiktok.com/tag/tiramisu">##tiramisu</a> <a title="cake" target="_blank" href="https://www.tiktok.com/tag/cake">##cake</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">##foryou</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">##fyp</a> <a title="asian" target="_blank" href="https://www.tiktok.com/tag/asian">##asian</a></p> <a target="_blank" title="♬ Feels - Calvin Harris feat. Pharrell Williams, Katy Perry & Big Sean" href="https://www.tiktok.com/music/Feels-241372308345331712">♬ Feels - Calvin Harris feat. Pharrell Williams, Katy Perry & Big Sean</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+              </div>
+        </div>
+      </div>
     
     </body>
 
